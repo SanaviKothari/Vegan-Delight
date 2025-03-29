@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegan Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Vegan Recipes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="breakfast.html">Breakfast</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lunch.html">Lunch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dinner.html">Dinner</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/breakfast.jpg" class="d-block w-100" alt="Breakfast">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Breakfast</h5>
+                    <p>Start your day with a healthy, vegan breakfast.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/lunch.jpg" class="d-block w-100" alt="Lunch">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Lunch</h5>
+                    <p>Refuel with a nutritious vegan lunch.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/dinner.jpg" class="d-block w-100" alt="Dinner">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Dinner</h5>
+                    <p>End your day with a satisfying, plant-based dinner.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#recipeCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#recipeCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="sticky-footer bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Vegan Recipes | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
